@@ -104,4 +104,28 @@ namespace Unconnected.Mvc.Outputcache
 ```
 Courtesy of [Alexander Kouznetsov](https://github.com/unconnected4/MvcOutputCacheFix)
 
+## Demo
+
+Technical specifications:
+- Developed using Visual Studio 2013
+- MVC 4 Web Application (.NET Framework 4)
+- DataTables jQuery plug-in (version 1.9.4) with server-side mode.
+
+[Source code](https://github.com/gabrieldalborgo/aspnetwebstack-mvc-outputcache-issue/tree/master/src)
+
 ## Activity Log
+
+- Create application environment
+  - Install visual studio 2013 for working with the same IDE at the time of the issue
+  - Create MVC 4 web application
+    - Configure cache profiles with the given configuration
+    - Download DataTables jQuery plug-in (version 1.9.4)
+    - Implement DataTables with server-side configuration
+- Identifie the issue
+  - Deeply understand the purpose and function of the output cache
+  - Analize possible configurations of the output cache
+  - Implement output cache in all possible ways
+- Find the solution
+  - Investigate viable options
+  - Implement solutions in environment created in step 1
+  - Document and communicate
