@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts {
+    @Scripts.Render("~/Scripts/Index.js")
+}
+
+<br />
+<h2>ISSUE</h2>
+<p>Represents the initial configuration of the output cache using CacheProfile</p>
+<p>VaryByParam parameter setted at web.config</p>
+<div>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="demoOne" width="100%">
+        <thead>
+            <tr>
+                <th>Rendering engine</th>
+                <th>Browser</th>
+                <th>Platform(s)</th>
+                <th>Engine version</th>
+                <th>CSS grade</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+<br />
+<h2>Solution #1</h2>
+<p>Moved all the initial configuration from CacheProfile to OutputCacheAttribute</p>
+<div>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="demoTwo" width="100%">
+        <thead>
+            <tr>
+                <th>Rendering engine</th>
+                <th>Browser</th>
+                <th>Platform(s)</th>
+                <th>Engine version</th>
+                <th>CSS grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<br />
+<h2>Solution #2</h2>
+<p>Represents the initial configuration of the output cache using CacheProfile</p>
+<p>VaryByParam parameter setted at web.config and at the OutputCacheAttribute</p>
+<div>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="demoThree" width="100%">
+        <thead>
+            <tr>
+                <th>Rendering engine</th>
+                <th>Browser</th>
+                <th>Platform(s)</th>
+                <th>Engine version</th>
+                <th>CSS grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<br />
+<h2>Solution #3</h2>
+<p>Represents the initial configuration of the output cache using CacheProfile</p>
+<p>VaryByParam parameter setted at web.config and using ParameterizedOutputCacheAttribute</p>
+<div>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="demoFour" width="100%">
+        <thead>
+            <tr>
+                <th>Rendering engine</th>
+                <th>Browser</th>
+                <th>Platform(s)</th>
+                <th>Engine version</th>
+                <th>CSS grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
